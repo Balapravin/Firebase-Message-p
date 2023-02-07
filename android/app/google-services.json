@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988949966870",
+    "project_id": "bala-fcm",
+    "storage_bucket": "bala-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988949966870:android:717c146be1a1fd9c790537",
+        "android_client_info": {
+          "package_name": "com.bala.fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988949966870-o3v8tkkkmqu87rpv8hdvuqrv78dqqlkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBBrHckY5XtISaPRITlqCF3FAsKeyiWQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988949966870-o3v8tkkkmqu87rpv8hdvuqrv78dqqlkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

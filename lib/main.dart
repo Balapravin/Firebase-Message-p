@@ -28,7 +28,7 @@ Future<void> main() async {
   FirebaseMessaging.onMessage.listen((RemoteMessage message) {
     print('Got a message whilst in the foreground!');
     var data = json.encode(message.data);
-    log('Firebase EdArk Message ------------------------------------------------------------------------------------------------ : $data');
+    log('Firebase Message------------- : $data');
   });
   
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
@@ -51,11 +51,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Firebase Local Notification Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: FCM  Demo'),
     );
   } 
 }
@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
        FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
     _firebaseMessaging.getToken().then((token) {
-       log(token!);
+       print(token!);
     });
     super.initState();
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {

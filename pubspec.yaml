@@ -1,7 +1,6 @@
 name: fcm
 description: A new Flutter project.
 
-# publish_to: 'none'
 version: 1.0.1
 
 environment:
@@ -13,6 +12,7 @@ dependencies:
 
 
   cupertino_icons: ^1.0.2
+
   firebase_core: ^2.4.1
   firebase_messaging: ^14.2.1
   flutter_local_notifications: ^13.0.0
